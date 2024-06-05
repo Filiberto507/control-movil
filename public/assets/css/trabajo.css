@@ -1,0 +1,210 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+  }
+.encabezado {
+  /*border: solid black 2px;*/
+  padding: 10px;
+}
+
+.colenca1{
+  width: 30%;
+}
+.colenca2{
+  text-align: center;
+  font-size: 30px;
+}
+  
+.img-go{
+    width: 150px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 20px;
+  }
+
+  .img-bo{
+    width: 100px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 20px;
+  }
+
+  .img-co{
+    width: 150px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 20px;
+  }
+  /*titulo*/
+  h2{
+  margin: 0;
+  text-align: center;
+  font-size: 23px;
+  padding: 10px;
+  /*background-color: #333;
+  color: white;*/
+  }
+
+  /*Datos del taller*/
+
+  .datos {
+    border-collapse: collapse;
+    margin: 20px auto ;
+    width: 700px;
+  }
+
+  .datos th, .datos td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  /*texto*/
+
+  .custom-table {
+    border-collapse: collapse;
+    width: 700px;
+    border: 1px solid black;
+
+  }
+
+ 
+
+  .custom-table td {
+    border-bottom: thin dashed;
+    padding: 5px 10px;
+  }
+
+  .dashed-border {
+    content: "";
+    display: block;
+    border-bottom: 1px dashed black;
+    
+  }
+
+  .second-table{
+    border: 1px solid black;
+  }
+
+  .tabla-tra1{
+    border: 1px solid black;
+  }
+
+  /* firma */
+
+  .firma{
+    margin-top: 100px;
+  }
+
+  .firma th{
+    width: 50%;
+  }
+
+  .firma td{
+    text-align: center;
+  }
+
+
+  /* checkbox */
+
+
+.table-check {
+  background-color: #cdd2cb;
+  /*#cdd2cb*/
+  padding: 5px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.table-check td {
+  font-size: 13px;
+  vertical-align: top;
+}
+
+.checkbox-item {
+  margin-bottom: 13px;
+  white-space: nowrap;
+}
+
+.checkbox-item input[type="checkbox"] {
+  display: none; /* Oculta el checkbox original */
+}
+
+.checkbox-item .checkmark {
+  display: none; /* Oculta la capa adicional del check original por defecto */
+}
+
+.checkbox-item input[type="checkbox"]:checked + .custom-checkbox-label .checkmark {
+  display: inline-block; /* Muestra la capa adicional del check original cuando el checkbox está marcado */
+  /* Estilos adicionales para el checkmark cuando está marcado */
+  transform: scale(2);
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: -5px;
+  text-align: center;
+}
+
+/* Estilo del checkbox personalizado */
+.custom-checkbox-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-checkbox {
+  
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+  border: 2px solid #000;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+  margin-right: 6px;
+  font-size: 14px;
+  margin-bottom: -5px;
+}
+
+/* Estilo del checkbox cuando está marcado (checked) */
+input[type="checkbox"]:checked + .custom-checkbox-label .custom-checkbox {
+  display: none;
+  background-color: lavender ; /* Cambia el color de fondo cuando está marcado */
+  color: #333; /* Cambia el color del texto cuando está marcado */
+}
+
+/* Estilo del checkbox cuando no está marcado (unchecked) */
+input[type="checkbox"]:not(:checked) + .custom-checkbox-label .custom-checkbox {
+  
+  background-color: #ff0000; /* Cambia el color de fondo cuando no está marcado */
+  color: #fff; /* Cambia el color del texto cuando no está marcado */
+}
+
+/*input[type="checkbox"] {
+  width: 50px;
+  height: 23px;
+  margin-right: 0px;
+  margin-bottom: -10px;
+  appearance: none;
+  border: 1px solid #000;
+background-color: #fff;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #000;
+}
+input[type="checkbox"]::before {
+  display: none;
+}*/
+
+/*footer*/
+.footer{
+  margin-top: 10px;
+}
+.footer tfoot {
+  border-collapse: collapse;
+  border: 1px solid black;
+
+}
+.footer tfoot td{
+  padding: 5px;
+}

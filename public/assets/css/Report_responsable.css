@@ -1,0 +1,78 @@
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+  }
+  
+.img-go{
+    width: 150px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 20px;
+  }
+
+  .img-bo{
+    width: 100px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 20px;
+  }
+
+  .img-co{
+    width: 150px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 20px;
+  }
+  /*titulo*/
+  h2{
+  margin: 0;
+  text-align: center;
+  font-size: 23px;
+  padding: 10px;
+  background-color: #4FC3F7;
+  color: black;
+  }
+
+  /*Datos del taller*/
+
+  .datos {
+    border-collapse: collapse;
+    margin: 20px auto ;
+    width: 700px;
+  }
+
+  .datos th, .datos td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+
+#factura_detalle{
+	border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#factura_detalle th, #factura_detalle td{
+    border: 1px solid black;
+    padding: 8px;
+}
+#factura_detalle thead th{
+	background: #4FC3F7;
+	color: black;
+	padding: 5px;
+    font-size: 10px;
+}
+#detalle_productos tr{
+    font-size: 15px;
+}
+#detalle_productos tr:nth-child(even) {
+    background: #ededed;
+}
+#detalle_totales span{
+	font-family: 'BrixSansBlack';
+}
+
+  
